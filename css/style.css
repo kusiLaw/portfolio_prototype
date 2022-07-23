@@ -5,9 +5,9 @@ body {
   font-size: 10px;
 }
 
-.container {
+/* .container {
   min-width: 375px;
-}
+} */
 
 /* reset settings for all browser */
 *,
@@ -23,35 +23,35 @@ body {
   width: 100%;
   height: 70px;
   background-color: white;
-}
+} 
 
-.header-wrapper {
+ .header-wrapper {
   position: fixed;
   height: 80%;
   margin-top: -5px;
 }
 
-.header-container {
+ .header-container {
   position: fixed;
   display: flex;
   background-color: white;
   width: 100%;
   padding: 0.5rem;
   justify-content: space-between;
-}
+} 
 
-.header-items {
+ .header-items {
   flex-grow: 0;
   align-items: baseline;
-}
+} 
 
 .logo-box {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} 
 
-.logo-box span {
+ .logo-box span {
   font-size: 18px;
   font-weight: 700;
   line-height: 2rem;
@@ -60,7 +60,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-}
+} 
 
 #compress-menu {
   height: 4rem;
@@ -73,20 +73,20 @@ a#logo:active {
   text-decoration: none;
   color: #6070ff;
   cursor: pointer;
-}
+} 
 
 .main {
   background-color: #f7f7f9;
   margin-top: 20px;
 }
 
-section.presentation {
+/* section.presentation {
   background-color: rgb(255, 255, 255);
   border-bottom-left-radius: 70px;
   height: 600px;
   display: flex;
   flex-direction: column;
-}
+} */
 
 .presentation-content {
   display: flex;
@@ -753,7 +753,7 @@ button.secondary:disabled {
 @media screen and (min-width: 768px) {
   .header-container {
     padding: 25px 100px;
-  }
+  } 
 
   .navigation ul {
     display: flex;
@@ -763,7 +763,7 @@ button.secondary:disabled {
     gap: 8px;
     width: 259px;
     height: 40px;
-  }
+  } 
 
   .navigation ul li a {
     display: flex;
