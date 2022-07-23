@@ -16,3 +16,10 @@ main.container-fluid {
 footer {
   background-color: #6070ff;
 }
+
+@media (max-width: 576px) {
+  div.#cad {
+    display: flex;
+    flex-direction: column;
+  }
+}
