@@ -12,3 +12,7 @@ main.container-fluid {
   background-color: white;
   padding: 1.5rem;
 }
+
+footer {
+  background-color: #6070ff;
+}
